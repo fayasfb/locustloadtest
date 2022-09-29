@@ -1,6 +1,0 @@
-pip install virtualenv if venv is not present
->venv\Scripts\activate - To activate the activate.bat file manually 
-python -m venv venv -- create the virtual environment
-pip install locust faker mention the modules 
-pip freeze-  all the modules installed for project then create requirements.txt file for installation next and use pip install -r requirements.txt
-locust -f python file 
