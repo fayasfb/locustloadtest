@@ -55,4 +55,4 @@ class DummyPostApiTest(SequentialTaskSet):
 class LoadTest(HttpUser):
     host = "https://reqres.in/api"
     wait_time = constant(1)
-    tasks = [DummyGetApiTest]
+    tasks = [DummyGetApiTest,DummyPostApiTest]
